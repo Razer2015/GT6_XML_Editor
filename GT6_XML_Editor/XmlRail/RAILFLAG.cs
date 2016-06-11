@@ -1,0 +1,10 @@
+﻿namespace XmlRail
+{
+  internal enum RAILFLAG
+  {
+    RAILFLAG_EXCLUSIVE_COURSE_SIDE = 1,
+    RAILFLAG_EXCLUSIVE_SLOPE = 2,
+    RAILFLAG_EXCLUSIVE_COURSE_OUT = 4,
+    RAILFLAG_HAS_ROAD = 8,
+  }
+}
